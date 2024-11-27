@@ -1,0 +1,321 @@
+.hero {
+    background: url('img/excavator-working-with-earth-sand-sandpit-foundation-work-building_61243-1172.avif') no-repeat center center;
+    background-size: cover;
+    color: white;
+    position: relative;
+  }
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 50px;
+  }
+  .services {
+    background-color: #FFC107;
+    color: black;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  .services .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .btn-primary {
+    background-color: #FFC107;
+    border-color: #FFC107;
+    color: black;
+  }
+  .btn-primary:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+  }
+  .quote-section {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+  }
+  .quote-section .btn-outline-warning {
+    color: #FFC107;
+    border-color: #FFC107;
+  }
+  .quote-section .btn-outline-warning:hover {
+    background-color: #FFC107;
+    color: black;
+  }
+
+
+  /* Navbar link hover effect */
+.navbar-nav .nav-link {
+transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+color: #007bff;
+transform: scale(1.1);
+}
+
+/* Cart icon hover animation */
+.navbar-nav .fa-shopping-cart {
+transition: transform 0.3s ease;
+}
+
+.navbar-nav .fa-shopping-cart:hover {
+transform: rotate(20deg);
+}
+
+/* Smooth dropdown animation */
+.collapse.show {
+transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggler {
+transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+background-color: rgba(0, 123, 255, 0.2);
+}
+
+
+.fade-in {
+opacity: 0;
+transform: translateY(20px);
+animation: fadeInAnimation 1s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+/* Hover effect for links and buttons */
+.hover-effect {
+transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+transform: scale(1.05);
+color: #007bff;
+}
+
+/* Social media hover effect */
+.social-hover {
+transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-hover:hover {
+transform: scale(1.2);
+color: #007bff;
+}
+
+
+
+
+
+
+/* General container padding */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling for the heading */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+/* Button customization */
+.btn-outline-dark {
+  border-width: 2px;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+}
+
+/* Statistics section */
+.row.text-center .col-md-6 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+  color: #000;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+/* Image adjustments */
+.img-fluid {
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.row.align-items-center{
+min-height: 400px;
+}
+
+.btn{
+padding: 0.6rem 1.2rem;
+font-weight: 10px;
+}
+.card{
+border: none;
+border-radius: 10px;
+}
+.card-body{
+font-size: 0.95rem;
+color: #333;
+}
+
+.hover-effect {
+transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+transform: scale(1.1);
+}
+
+/* Fade-in effect for images */
+.fade-in-image {
+opacity: 0;
+animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+to {
+  opacity: 1;
+}
+}
+
+
+hover-effect {
+transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+transform: scale(1.1);
+}
+
+/* Optional: Additional styling for background and padding */
+.bg-light {
+background-color: #f8f9fa !important; /* Light gray for contrast */
+}
+
+.shadow {
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .view-all-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+
+
+
+  .custom-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.section-title {
+    font-weight: bold;
+}
+.project-image {
+    border-radius: 0.5rem;
+}
+.custom-list {
+    padding-left: 1rem;
+}
+.custom-list li {
+    margin-bottom: 0.5rem;
+}
+.image-grid img {
+    border-radius: 0.5rem;
+}
+
+
+/* Custom styles for the header section */
+.project-header {
+   background-image: url(/img/pic8.jpg);
+    position: relative;
+    color: white;
+    padding: 5rem 3rem;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.project-header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.project-header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.project-title::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background-color: #ffc107;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.project-details p {
+    margin: 0.3rem 0;
+}
+
+
+
+
+
+
+
+
+
